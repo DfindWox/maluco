@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Treino</title>
+</head>
+<body class="dark-mode">
+    <section class="bg-video center" > 
+        <video class="video center no_scroll" autoplay muted loop src="video/video3.mp4"></video>
+    </section>
+    <header class="center">
+        <div class="header_links">
+            <img class="header_logo pointer" src="img/logo.png" alt="geass">
+            <ul class="header_links ml-5">
+                <li class="header_link pointer">metas</li>
+                <li class="header_link pointer">planos</li>
+                <li class="header_link pointer">visão</li>
+                <li class="header_link pointer">meios</li>
+            </ul>
+        </div>
+        <div class="header_btns">
+            <img class="radius_s header_btn pointer" src="svg/translate.svg" onload="SVGInject(this)" alt="">
+            <img class="radius_l header_btn pointer" src="svg/Dark Icon.svg" onload="SVGInject(this)" alt="">
+        </div>
+    </header>
+    <section class="hero container no_scroll">
+        <div class="hero_left">
+            <h5 class="hero_pretitle">Mestre estrategista</h3>
+            <h1 class="hero_title">LELOUCH<br>SEU IMPERADOR</h1>
+            <h6 class="hero_subtitle">Uma vez, Lelouch foi capaz calcular todos os futuros possíveis <br> e vencer uma pessoa que voltava no tempo após a morte</h6>
+            <h5 class="hero_more">Clique para saber mais</h3>
+        </div>
+        <div data-tilt class="hero_right center container">
+            <div class="js-tilt">
+                <img class="hero_img4 no_scroll" src="img/Ekko.png" alt="">
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg-injector/1.1.3/svg-injector.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.0.3/tilt.jquery.min.js"></script>
+    <script>
+       $('.js-tilt').tilt
+       ({
+              glare: true,
+              maxGlare: .5
+            });
+    </script>
+</body>
+
+
+
+</html>
